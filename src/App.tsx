@@ -23,10 +23,12 @@ function App() {
               <h2 className="text-2xl font-medium text-white">
                 The card title is here.
               </h2>
-              <p className="overflow-hidden h-0 text-white/70 group-hover:h-auto">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-                quia ipsa eius.
-              </p>
+              <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all">
+                <p className="overflow-hidden mt-2 text-white/70">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Minima quia ipsa eius.
+                </p>
+              </div>
             </div>
           </li>
         ))}
