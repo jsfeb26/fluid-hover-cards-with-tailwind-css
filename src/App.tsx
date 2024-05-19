@@ -20,14 +20,16 @@ function App() {
               alt=""
             />
             <div className="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-black/70 from-30%">
-              <h2 className="text-2xl font-medium text-white">
-                The card title is here.
-              </h2>
-              <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all">
-                <p className="overflow-hidden mt-2 text-white/70 opacity-0 group-hover:opacity-100 transition duration-300">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Minima quia ipsa eius.
-                </p>
+              <div className="w-48">
+                <h2 className="text-2xl font-medium text-white leading-tight">
+                  The card title is here.
+                </h2>
+                <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all">
+                  <p className="overflow-hidden mt-2 text-white/70 opacity-0 group-hover:opacity-100 transition duration-300">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Minima quia ipsa eius.
+                  </p>
+                </div>
               </div>
             </div>
           </li>
