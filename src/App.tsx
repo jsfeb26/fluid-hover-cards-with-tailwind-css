@@ -24,7 +24,7 @@ function App() {
                 The card title is here.
               </h2>
               <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all">
-                <p className="overflow-hidden mt-2 text-white/70">
+                <p className="overflow-hidden mt-2 text-white/70 opacity-0 group-hover:opacity-100 transition duration-300">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Minima quia ipsa eius.
                 </p>
