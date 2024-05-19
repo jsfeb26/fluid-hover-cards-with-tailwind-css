@@ -12,7 +12,7 @@ function App() {
         {[...Array(4).keys()].map((_item, index) => (
           <li
             key={index}
-            className="h-[500px] w-full rounded-2xl bg-rose-300 relative overflow-hidden group"
+            className="h-[500px] w-full rounded-2xl bg-rose-300 relative overflow-hidden group flex-1 hover:grow-[1.25] transition-all"
           >
             <img
               className="absolute w-full h-full inset-0 object-cover"
