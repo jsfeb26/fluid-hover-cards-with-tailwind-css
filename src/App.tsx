@@ -12,7 +12,7 @@ function App() {
         {[...Array(4).keys()].map((_item, index) => (
           <li
             key={index}
-            className="h-[500px] w-full rounded-2xl bg-rose-300 relative overflow-hidden"
+            className="h-[500px] w-full rounded-2xl bg-rose-300 relative overflow-hidden group"
           >
             <img
               className="absolute w-full h-full inset-0 object-cover"
@@ -23,7 +23,7 @@ function App() {
               <h2 className="text-2xl font-medium text-white">
                 The card title is here.
               </h2>
-              <p className="mt-2 text-white/70">
+              <p className="overflow-hidden h-0 text-white/70 group-hover:h-auto">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
                 quia ipsa eius.
               </p>
